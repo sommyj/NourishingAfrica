@@ -1,0 +1,67 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #16a844 3px solid;
+  opacity: 0.8; }
+  .navbar #login {
+    background-color: #16a844;
+    font-style: bold;
+    border-radius: 5px; }
+
+#home-section {
+  background: url("../img/bananas-carrots-cherries.jpg") no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 120px; }
+
+#about-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+.form .message {
+  margin: 15px 0 0;
+  font-size: 15px; }
+
+.form .message a {
+  color: #940707;
+  text-decoration: none; }
+
+.form .login-form {
+  display: none; }
+
+#job-section {
+  min-height: auto; }
+  #job-section .dark-overlay {
+    background: #fff;
+    color: #333;
+    position: static;
+    width: 100%; }
+  #job-section .job-inner {
+    padding-top: 50px; }
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; }
+
+@media only screen and (min-width: 700px) {
+  .pl2 {
+    padding-left: 50%; } }

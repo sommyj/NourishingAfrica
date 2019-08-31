@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Nourishing Afirca-Login</title>
+    </head>
+
+    <body id= "home">
+      <div id="nav-placeholder"></div>
+
+      <!-- HOME SECTION -->
+      <header id="home-section">
+        <div class="dark-overlay">
+          <div class="home-inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 d-none d-lg-block">
+                  <h1 class="display-4">NourishingAfirca</h1>
+                  <p class="p-2">A home for 1 million agri-food entrepreneurs transforming Africa's agrictural landscape.</p>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="form">
+                        <div class="card bg-success text-center card-form">
+                          <div class="card-body">
+                      <form class="registration-form">
+                        <h3> Sign Up And Start Connecting</h3>
+                        <p>Please fill out this form to register</p>
+                        <div class="form-group">
+                          <input type="text" class="form-control form-control-lg" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                          <input type="email" class="form-control form-control-lg" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control form-control-lg" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                          <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                        </div>
+                        <input type="submit" class="btn btn-outline-light btn-block" value="Submit">
+                        <p class="message"> Already have an account? <a href="#">Login</a></p>
+                      </form>
+
+                        <form class="login-form">
+                          <h3> Welcome Back!</h3>
+                          <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Username">
+                          </div>
+                          <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" placeholder="Password">
+                          </div>
+                          <input type="submit" class="btn btn-outline-light btn-block" value="Login">
+                          <p class="message"> Not Registered? <a href="#">Register</a></p>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div id="footer-placeholder"></div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("template/nav.html");
+          $("#footer-placeholder").load("template/footer.html");
+        });
+          $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity:"toggle"}, "slow")
+          });
+        </script>
+    </body>
+</html>
