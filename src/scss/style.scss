@@ -80,6 +80,21 @@ body{
     }
    }
 
+   #eLearning-section{
+     min-height: auto;
+
+     .dark-overlay{
+       background: $font-color;
+       color: $bg-color;
+       position: static;
+       width:100%;
+     }
+
+     .eLearning-inner{
+       padding-top: 50px;
+     }
+    }
+
    hr {
     display: block;
     margin-top: 0.5em;

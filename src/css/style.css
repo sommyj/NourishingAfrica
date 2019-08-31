@@ -53,6 +53,16 @@ body {
   #job-section .job-inner {
     padding-top: 50px; }
 
+#eLearning-section {
+  min-height: auto; }
+  #eLearning-section .dark-overlay {
+    background: #fff;
+    color: #333;
+    position: static;
+    width: 100%; }
+  #eLearning-section .eLearning-inner {
+    padding-top: 50px; }
+
 hr {
   display: block;
   margin-top: 0.5em;
